@@ -1,0 +1,155 @@
+.clear-fix::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+.item-box {
+  width:1100px;
+}
+.header {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  padding: 15px 0;
+  width: 100%;
+}
+.header__item__content-left {
+  float: left;
+  /*電撃マーク*/
+}
+.header__item__content-right {
+  float: right;
+  text-align: center;
+  font-size: 12px;
+  padding: 14px 12px;
+  color: #fff;
+  background-color: #74cfae;
+  /*content白枠*/
+}
+/*--------------------------*/
+.main {
+  width: 100%;
+  background-color: #f2f2f2;
+}
+
+.main__theme {
+  width: 100%;
+  padding: 250px 0;
+  text-align: center;
+}
+.main__theme-maintext {
+  color: #74cfae;
+  font-size: 90px;
+  font-weight: 700;
+}
+.main__theme-subtext {
+  font-size: 30px;
+  color: #c0c0c0;
+}
+
+.main__question {
+  width: 100%;
+  background-color: #74cfae;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+.main__question__frame-image {
+  float: left;
+}
+.main__question__frame-text {
+  float:right;
+  width: 600px;
+  text-align: center;
+  color: #fff;
+}
+.main__question-maintext {
+  margin-bottom: 35px;
+  font-size: 24px;
+}
+.main__question-subtext {
+  word-wrap: break-word;
+  font-size: 20px;
+}
+
+.main__work {
+  width: 100%;
+  padding: 60px 0;
+  display: flex;
+  justify-content: center;
+}
+.main__work__maintext {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 24px;
+}
+.main__work__frame {
+  margin-bottom: 80px;
+}
+.main__work-image {
+  margin: 0 -4px -4px -4px;
+  display: inline-block;
+  margin-right: 100px;
+}
+.main__work-image:last-child {
+  margin-right: -4px;
+}
+.main__work__content {
+  display: flex;
+  justify-content: center;
+  max-width: 900px;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 12px;
+}
+.main__work__content-text {
+  float:left;
+  margin-right:90px;
+  max-width: 650px;
+  word-wrap: break-word;
+  color: #333;
+}
+.main__work__content-button {
+  padding: 14px 20px;
+  background-color: #74cfae;
+  color: #fff;
+}
+
+.main__skills {
+  width:100%;
+  background-color: #4e4e4e;
+  text-align: center;
+  padding: 70px 0 100px 0;
+  color: #fff;
+}
+.main__skills__text {
+  margin-bottom:70px;
+  font-size:24px;
+}
+.main__skills__frame {
+  display:flex;
+  justify-content: center;
+  font-size: 16px;
+}
+.main__skills__item {
+  float:left;
+  margin-right: 180px;
+  line-height: 40px;
+}
+.main__skills__item:last-child {
+  margin-right: 0;
+}
+
+.main__support {
+  padding: 200px;
+}
+.main__support__content {
+  display: flex;
+  justify-content: center;
+  margin: 200px 0;
+  font-size: 0;
+}
+.main__support__icon {
+  width: 185px;
+}
