@@ -62,7 +62,7 @@
 }
 .main__question__frame-text {
   float:right;
-  width: 600px;
+  width: 750px;
   text-align: center;
   color: #fff;
 }
@@ -151,25 +151,37 @@
   padding: 200px 0;
 }
 .main__support__content {
-  height: 400px;
   display: flex;
   justify-content: center;
 }
-.main__support__icon {
+.main__support__content i{
+  display: flex;
+  justify-content: center;
+}
+.icon {
+  padding:20px 0;
   width: 185px;
+  font-family: FontAwesome;
+  color: #74cfae;
+  opacity: 0.7;
+  background-color: #f2f2f2;
+  transition-duration: 0.3s;
+}
+.icon:hover {
+  background-color: #fff;
+  opacity: 1;
 }
 .icon-facebook {
   content: "\f39e";
-  font-family: FontAwesome;
 }
-.icon-basketball {
-
+.icon-dribbble {
+  content: "\f17d";
 }
 .icon-twitter {
-
+  content: "\f099";
 }
 .icon-Email {
-
+  content: "\f0e0";
 }
 
 .footer {
