@@ -3,7 +3,7 @@
   content: "";
   clear: both;
 }
-.fontstyle {
+body {
   font-family: "Raleway",serif;
 }
 .buttonstyle {
@@ -91,11 +91,10 @@
   float:right;
   width: 650px;
   text-align: center;
-  font-family: "Lato",serif;
   color: #fff;
 }
 .main__question-maintext {
-  margin: 20px 0 35px 0;
+  margin-left: 20px;
   font-size: 24px;
 }
 .main__question-subtext {
