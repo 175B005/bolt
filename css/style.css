@@ -13,12 +13,15 @@
   display: flex;
   justify-content: center;
   background-color: white;
-  padding: 15px 0;
   width: 100%;
+  padding: 15px 0;
 }
 .header__item__content-left {
   float: left;
-  /*電撃マーク*/
+  width: 185px;
+  font-family: FontAwesome;
+  color: #4e4e4e;
+  content: "\f0e7";
 }
 .header__item__content-right {
   float: right;
@@ -27,7 +30,8 @@
   padding: 14px 12px;
   color: #fff;
   background-color: #74cfae;
-  /*content白枠*/
+  font-family: "Lato",serif;
+  font-weight: 700;
 }
 /*--------------------------*/
 .main {
@@ -44,6 +48,8 @@
   color: #74cfae;
   font-size: 90px;
   font-weight: 700;
+  margin-bottom: 20px;
+  font-family: "Raleway",serif;
 }
 .main__theme-subtext {
   font-size: 30px;
@@ -67,12 +73,13 @@
   color: #fff;
 }
 .main__question-maintext {
-  margin-bottom: 35px;
+  margin: 20px 0 35px 0;
   font-size: 24px;
   font-family: "Raleway",serif;
 }
 .main__question-subtext {
   word-wrap: break-word;
+  line-height: 30px;
   font-size: 20px;
 }
 
@@ -110,12 +117,15 @@
 .main__work__content-text {
   float:left;
   margin-right:90px;
-  max-width: 650px;
+  max-width: 500px;
+  line-height: 20px;
   word-wrap: break-word;
   color: #333;
 }
 .main__work__content-button {
   padding: 14px 20px;
+  margin: 8px 0;
+  vertical-align: middle;
   background-color: #74cfae;
   color: #fff;
 }
@@ -194,5 +204,7 @@
 .footer__text {
   float:right;
   font-size: 16px;
+  font-weight: 500;
+  font-family: "Lato",serif;
   color: #fff;
 }
