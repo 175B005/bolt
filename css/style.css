@@ -7,20 +7,14 @@ body {
   font-family: "Raleway",serif;
 }
 .buttonstyle {
-  border: none;
-  cursor: pointer;
-  outline: none;
-  padding: 0;
-  background-color: #74cfae;
-  font-size: 12px;
-  color: #fff;
+  text-decoration: none;
   transition-duration: 0.3s;
 }
 .buttonstyle:hover {
   color: #333;
 }
 
-.item-box {
+.inner-box {
   width:1100px;
   margin:0 auto;
 }
@@ -31,13 +25,13 @@ body {
   background-color: white;
   width: 100%;
   padding: 15px;
+  z-index: 100;
 }
 .header__item__content-left {
   float: left;
   width: 185px;
   font-family: FontAwesome;
   color: #4e4e4e;
-  content: "\f0e7";
 }
 .header__item__content-right {
   float: right;
@@ -47,7 +41,6 @@ body {
   padding: 14px 12px;
   color: #fff;
   background-color: #74cfae;
-  font-family: "Lato",serif;
   font-weight: 700;
 }
 /*--------------------------*/
@@ -85,7 +78,8 @@ body {
 }
 .main__question__frame-image {
   float: left;
-  margin-left: 100px;
+  width:450px;
+  text-align: center;
 }
 .main__question__frame-text {
   float:right;
@@ -94,7 +88,7 @@ body {
   color: #fff;
 }
 .main__question-maintext {
-  margin-left: 20px;
+  margin: 25px 0 35px;
   font-size: 24px;
 }
 .main__question-subtext {
@@ -106,8 +100,10 @@ body {
 .main__work {
   width: 100%;
   padding: 60px 0;
+  font-size:0;
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 .main__work__maintext {
   text-align: center;
@@ -115,17 +111,23 @@ body {
   font-size: 24px;
 }
 .main__work-image {
-  margin: 0 -3px -3px -3px;
   display: inline-block;
-  margin-right: 100px;
+  margin: 0 0 0 100px;
   opacity: 0.7;
   transition-duration: 0.3s;
+  text-align: center;
 }
 .main__work-image:hover {
   opacity: 1;
 }
-.main__work-image:nth-of-type(3n) {
-  margin: 0 -3px -3px -3px;
+.main__work-image:first-of-type{
+  margin: 0;
+}
+.main__work-image:nth-child(5){
+  margin-top: 80px;
+}
+.main__work-image:nth-child(3n-1){
+  margin-left: 0;
 }
 .main__work-distance {
   width: 100%;
@@ -135,11 +137,11 @@ body {
   display: flex;
   justify-content: center;
   padding: 10px 0;
+  margin-top:80px;
   text-align: center;
   font-size: 12px;
 }
 .main__work__content-text {
-  float:left;
   margin-right:90px;
   max-width: 530px;
   line-height: 25px;
@@ -173,10 +175,12 @@ body {
 .main__skills__item {
   float:left;
   margin-right: 180px;
-  line-height: 40px;
 }
 .main__skills__item:last-child {
   margin-right: 0;
+}
+.main__skills__item-name{
+  margin-bottom: 30px;
 }
 
 .main__support {
@@ -187,6 +191,7 @@ body {
 }
 .main__support__content {
   display: flex;
+  justify-content: center;
 }
 .main__support__content a{
   display: flex;
@@ -197,9 +202,9 @@ body {
   text-align: center;
   padding:20px 0;
   width: 185px;
-  font-family: FontAwesome;
   color: #74cfae;
   opacity: 0.7;
+  font-family: FontAwesome;
   background-color: #f2f2f2;
   transition-duration: 0.3s;
 }
@@ -220,6 +225,5 @@ body {
   text-align: right;
   font-size: 16px;
   font-weight: 400;
-  font-family: "Lato",serif;
   color: #fff;
 }
