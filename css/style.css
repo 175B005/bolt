@@ -18,11 +18,10 @@ img {/*image の余白*/
   position: fixed;
   background-color: white;
   width: 100%;
-  padding-top: 15px;
+  padding: 15px 0;
   z-index: 100;
 }
 .header__item__content-left {
-  padding-left: 15px;
   float: left;
   opacity: 0.7;
   font-family: FontAwesome;
@@ -117,6 +116,9 @@ img {/*image の余白*/
 
 .main__support {
   padding: 200px 0;
+  letter-spacing: -.4em;
+  /*間隔を詰めることで、全体width超過で回り込みを防ぐ。
+    font-size: 0;だと、aタグなので、消える。。*/
 }
 .main__support__content a{
   display: inline-block;
@@ -227,11 +229,11 @@ img {/*image の余白*/
   .main__question__frame-image {
     float: left;
     width: 450px;
-    margin-bottom: 25px;
   }
   .main__question__frame-text {
     float: right;
     width: 650px;
+    margin-top: 20px;
   }
   .main__question-maintext {
     margin-bottom: 35px;
