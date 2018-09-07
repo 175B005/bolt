@@ -25,7 +25,6 @@ img {/*image の余白*/
   padding-left: 15px;
   float: left;
   opacity: 0.7;
-  width: 185px;
   font-family: FontAwesome;
   color: #4e4e4e;
   text-decoration: none;
@@ -94,12 +93,12 @@ img {/*image の余白*/
   color: #fff;
 }
 .main__skills__text {
-  margin-bottom:70px;
-  font-size:24px;
+  margin-bottom: 70px;
+  font-size: 24px;
 }
 .main__skills__frame {
-  margin: 0 auto;
   font-size: 16px;
+  margin: 0 auto;
 }
 .main__skills__item {
   text-align: center;
@@ -127,7 +126,7 @@ img {/*image の余白*/
 .footer {/*footer要素*/
   position: relative;
   top: 25px;
-  width:100%;
+  width: 100%;
   background-color: #74cfae;
   padding: 20px 0 25px;
   color: #000;
@@ -141,7 +140,7 @@ img {/*image の余白*/
 
 .icon {/*アイコン全体のstyle*/
   text-align: center;
-  padding:20px 0;
+  padding: 20px 0;
   color: #74cfae;
   opacity: 0.7;
   font-family: FontAwesome;
@@ -157,13 +156,16 @@ img {/*image の余白*/
     display: none;
   }
   .inner-box {
-    width:97%;
+    width: 97%;
   }
   .main__question {
     padding: 50px 0 25px;
   }
+  .main__question__frame-image {
+    margin-bottom: 20px;
+  }
   .main__question-maintext {
-    margin: 20px 0 35px;
+    margin-bottom: 35px;
   }
   .main__work {
     text-align: center;
@@ -174,6 +176,8 @@ img {/*image の余白*/
   }
   .main__work-image{
     display: block;
+    width: 300px;
+    margin:0 auto;
   }
   .main__work-image:nth-child(3n+2){
     /*ハードコーディング厳禁*/
@@ -214,7 +218,7 @@ img {/*image の余白*/
     display: none;
   }
   .inner-box {
-    width:1100px;
+    width: 1100px;
   }
 
   .main__question {
@@ -222,14 +226,15 @@ img {/*image の余白*/
   }
   .main__question__frame-image {
     float: left;
-    width:450px;
+    width: 450px;
+    margin-bottom: 25px;
   }
   .main__question__frame-text {
-    float:right;
+    float: right;
     width: 650px;
   }
   .main__question-maintext {
-    margin: 25px 0 35px;
+    margin-bottom: 35px;
     font-size: 24px;
   }
   .main__question-subtext {
@@ -260,7 +265,7 @@ img {/*image の余白*/
   }
   .main__work__content {
     padding: 10px 0;
-    margin-top:80px;
+    margin-top: 80px;
     font-size: 12px;
     display: flex;
     justify-content: center;
@@ -283,7 +288,7 @@ img {/*image の余白*/
   }
 
   .main__skills__item {
-    float:left;
+    display: inline-block;
     margin-right: 180px;
   }
   .main__skills__item:last-child {
@@ -302,7 +307,6 @@ img {/*image の余白*/
   }
   .header__item-hamburgermenu {
     width: 25px;
-    font-size: 0;
     padding: 10px;
     background-color: #fff;
     border: 1px solid #ddd;
@@ -315,7 +319,7 @@ img {/*image の余白*/
     margin-bottom: 5px;
   }
   .menu__select.active {
-    display:block;
+    display: block;
     width: 100%;
     padding: 25px 0 15px;
     margin: 0;
@@ -327,7 +331,7 @@ img {/*image の余白*/
   .menu__select-contact {
     display:inline-block;
     width: 100%;
-    padding:10px 0 10px 15px;
+    padding: 10px 0 10px 15px;
     vertical-align: middle;
     background-color: #74cfae;
     color: #fff;
@@ -342,16 +346,22 @@ img {/*image の余白*/
   .main__theme-maintext {
     font-size: 80px;
   }
+  .main__question__frame-image {
+    margin-bottom: 25px;
+  }
   .main__question-maintext {
-    margin: 25px 0 35px;
+    margin-bottom: 35px;
     font-size: 24px;
   }
   .main__question-subtext {
     line-height: 30px;
     font-size: 20px;
   }
-  .main__work-image:nth-of-type(4){/*ハードコ―ディング×式1,4,7とやってfirstではずす的なノリで*/
+  .main__work-image:nth-of-type(3n+1){/*ハードコ―ディング×式1,4,7とやってfirstではずす的なノリで*/
     margin-top: 80px;
+  }
+  .main__work-image:first-child{
+    margin: 0;
   }
   .main__support {
     padding: 50px 15px 100px;
