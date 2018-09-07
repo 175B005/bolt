@@ -108,6 +108,7 @@ img {/*image の余白*/
 
 .main__support__content {
   text-align: center;
+  font-size: 0;
 }
 .main__support__content a{
   text-align: center;
@@ -116,12 +117,12 @@ img {/*image の余白*/
 
 .main__support {
   padding: 200px 0;
-  letter-spacing: -.4em;
   /*間隔を詰めることで、全体width超過で回り込みを防ぐ。
     font-size: 0;だと、aタグなので、消える。。*/
 }
 .main__support__content a{
   display: inline-block;
+  font-size: 48px;
   width: 185px;
 }
 
